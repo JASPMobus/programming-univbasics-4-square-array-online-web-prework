@@ -5,8 +5,7 @@ def square_array(array)
   while !!array[i] do
     retarray.append(array[i]**2)
     
-    i++
+    i+=1
   end
   
   return retarray
-end
